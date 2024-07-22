@@ -1,0 +1,62 @@
+/* Descendant Selector */
+section p {
+    color: green;
+}
+
+/* Child Selector */
+ul.second > li {
+    color: #ff0000;
+}
+
+article.highlighted {
+    background-color: lightblue;
+}
+
+/* Adjacent Sibling Selector */
+article.highlighted + article {
+    color: yellowgreen;
+}
+
+/* General Sibling Selector */
+h2.important ~ p {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Combining Relative Selectors for specificity */
+li.first + li a {
+    color: red;
+}
+
+
+/* Organizing and commenting your CSS for clarity */
+/* Additional styles for readability */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+}
+
+.special {
+    color: tomato;
+}

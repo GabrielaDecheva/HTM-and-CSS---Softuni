@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font: 14px/1.5 Lato, sans-serif;
+    padding: 2em;
+}
+
+.site {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 0.5em;
+    overflow: hidden;
+}
+
+.site-header h1 {
+    color: rgb(31, 203, 31);
+    padding: 1rem 1.5rem
+}
+
+.site-header{
+    margin-bottom: 1em;
+}
+
+.site-header,
+.site-footer {
+    flex: 1 1 100%;
+}
+
+.site-main {
+    flex: 1 0 65%;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.site-sidebar {
+    flex: 1 0 25%;
+    margin-right: 2em;
+    margin-left: 3em;
+}
+
+.site-header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-footer {
+    background: #333;
+    color: white;
+    padding: 1em 1.5em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.site-header nav {
+    background: #333;
+    color: white;
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+.site-header nav li {
+    display: block;
+    list-style: none outside;
+    flex: 1 1 auto;
+}
+
+.site-header nav a {
+    display: block;
+    padding: 1em 1.5em;
+}
+
+.site-header nav a:hover {
+    background: darkorange;
+    color: white;
+}

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font: 16px/1.5 "Lato", sans-serif;
+}
+
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 14px/1.5 Montserrat, sans-serif;
+}
+
+h1 {font-size: 2.4em;}
+h2 {font-size: 2.0em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em;}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li {
+    display: block;
+    list-style: none outside;
+}
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: bold;
+}
+
+
+ /*  */
+
+
+.section .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.site-header .site-title img {
+    display: block;
+    width: 15%;
+    overflow: hidden;
+}
+
+.section-plans {
+    background-color: #1db954;
+    max-height: 370px;
+
+}
+.section-plans h3 {
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.section-plans ul li {
+    padding-top: 1em;
+    list-style-type: circle;
+}
+
+.flex-plans {
+    display: flex;
+    gap: 12em;
+    
+}
+
+.flex-plans ul li {
+    opacity: 0.7;
+}
+
+article .plan {
+    max-height: 300px;
+}
+
+.flex-plans section:first-child {
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+    max-width: 500px;
+    height: 500px;
+    padding: 0.5em 2em;
+    border-radius: 0.3em 0.3em 0 0;
+}
+
+.plan h3 {
+    color: black;
+    padding-top: 0.5em;
+    font-weight: bold;
+}
+
+.section-plans .wrapper .button {
+    display: inline-block;
+    background-color: #1db954;
+    border-radius: 0.8em;
+    color: white;
+    font-weight: bold;
+    margin-left: 5em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    padding: 0.5em 3em;
+}
+
+.flex-plans .one-price {
+    background-color: black;
+    color: white;
+    border-radius: 0 0 0.3em 0.3em;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.flex-plans .prices {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 0 0 0.3em 0.3em;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+.section-dogopal {
+    display: flex;
+    padding-top: 26em;
+    padding-left: 6.5em;
+    padding-right: 8em;
+    gap: 8em;
+}
+
+.section-dogopal img {
+    max-width: 410px;
+    height: auto;
+    padding-top: 2em;
+    flex: 1 1 20%
+}
+
+.section-dogopal .options > * {
+    padding-top: 2em;
+
+}
+
+.section-dogopal .options p {
+    opacity: 0.7;
+}
+
+.section-dogopal .options h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.section-table .experience {
+    text-align: center;
+}
+
+.section-table .experience p {
+    opacity: 0.7;
+}
+
+.section-table h1 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.section-table .table img {
+    max-width: 30px;
+    max-height: 20px;
+}
+
+.section-table .table table {
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 6em;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.section-table .table table td {
+    padding: 0.5em;
+}
+
+table tr:nth-child(odd) td {
+	background: #cccbcb;
+}
+
+table tr:nth-child(even) td {
+	background: #81d8a0;
+}
+
+.site-footer {
+    background-color: #191414;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}

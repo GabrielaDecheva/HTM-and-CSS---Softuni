@@ -1,0 +1,102 @@
+body {
+    padding-top: 1.5em;
+}
+
+html {
+    font: 16px, 1.5, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	font-size: 2.8rem;
+}
+
+h2 {
+	font-size: 2.2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+    padding-bottom: 0;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid lightgrey;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+blockquote p:last-of-type {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	margin-bottom: 1.5rem;
+	border: 1px solid #CCC;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table td,
+table th {
+	border: 1px solid #CCC;
+	padding: 0.3rem 0.5rem;
+}
+
+table thead th {
+	text-align: left;
+	background: #CCC;
+}
+
+table tr:nth-child(odd) td {
+	background: #F1F1F1;
+}
+
+table tr:hover td {
+	background: black;
+	color: #FFF;
+	border-color: transparent;
+}
+
+hr {
+	margin: 2rem 0;
+}

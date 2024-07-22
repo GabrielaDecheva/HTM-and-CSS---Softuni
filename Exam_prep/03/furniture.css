@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 "PT Sans", sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 {font-size: 2.4em;}
+h2 {font-size: 2.0em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em;}
+
+
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li {
+    display: block;
+    list-style: none outside;
+}
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: bold;
+}
+
+.flex-columns {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-columns.c2 > * {
+    flex: 1 1 45%;
+}
+
+.flex-columns.c3 > * {
+    flex: 0 0 30%;
+}
+
+ /*  */
+
+ body {
+    background-image: url('images/background.jpg');
+    background-position: center -19em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+ }
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.section .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-catalog header,
+.section-about,
+.section-banner {
+    text-align: center;
+}
+
+.site-header .site-title a {
+    display: block;
+    width: 7em;
+    height: 4em;
+    background: url('images/logo.png') center no-repeat;
+    background-size: contain;
+    text-indent: -100vw;
+    overflow: hidden;
+}
+
+.section-banner .wrapper {
+    padding: 10em 0 4em 0;
+}
+
+.section-banner .wrapper h2 {
+    padding-bottom: 1rem;
+} 
+
+.section-banner .wrapper .button {
+    display: inline-block;
+    background-color: white;
+    border-radius: 0.3em;
+    color: #686666;
+    margin-top: 2em;
+    padding: 0.5em 1em;
+}
+
+.section-catalog .wrapper {
+    padding: 1em 0 2em 0;
+}
+
+.section-catalog header {
+    padding-bottom: 1.5em;
+}
+
+.section-catalog header h3 {
+    font-size: 1.2em;
+}
+
+.section-catalog .flex-columns.c3 {
+    gap: 3em;
+}
+
+.section-catalog .flex-columns.c3 img {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+}
+
+
+.section-furniture {
+    background-color: white;
+
+}
+
+.section-furniture .wrapper{
+    padding: 3em 0;
+    
+}
+.section-furniture .flex-columns.c3 {
+    gap: 5em;
+}
+
+.section-furniture .flex-columns.c3 > * {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.section-furniture .flex-columns.c3 img {
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+}
+
+.section-furniture .flex-columns.c3 h4 {
+    font: 1.2m;
+}
+
+.section-about .wrapper {
+    padding: 2em;
+    opacity: 0.7;
+}
+
+.section-about .wrapper header {
+    padding-bottom: 2em;
+}
+
+.section-about .wrapper header h3 {
+    font-size: 1.2em;
+
+}
+
+.section-about .wrapper header p {
+    font-style: italic;
+}
+
+.section-about .wrapper p {
+    max-width: 100ch;
+    margin: 0 auto;
+}
+
+.section-catalog .flex-columns.c2 {
+    gap: 11em;
+}
+
+.section-catalog .flex-columns.c2 article > * {
+    flex: 0 0 50%;
+}
+
+.section-catalog .flex-columns.c2 article {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+}
+
+.section-catalog .flex-columns.c2 article h4 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.section-catalog .flex-columns.c2 article .media {
+    overflow: hidden;
+    position: relative;
+}
+
+.section-catalog .flex-columns.c2 article .media img {
+    /* object-fit: cover; */
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.section-catalog .flex-columns.c2 article section {
+    background-color: white;
+    padding: 3em 2em;
+}
+
+.section .wrapper.narrow {
+    max-width: 1000px;
+}
+
+.section-catalog {
+    background-color: #60acc1;
+}
+
+.site-footer {
+    background-color: #2d333c;
+    color: white;
+    text-align: center;
+}
+
+.site-footer .wrapper {
+    padding: 1em 0;
+}
+
+
